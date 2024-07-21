@@ -1,32 +1,45 @@
-body{
+/* Selector is use to select the elecemt .
+Here body is use to select the whole page.   */
+body {
+    /*backfround-color is a property */
     background-color: darkgrey;
+    /* And the darkgrey is the value*/
     color: white;
-   
+
 }
-header{
+
+/* Element Selector */
+header {
     text-align: center;
     color: rgb(33, 33, 33);
 }
 
-.First{
-    color:darkgreen;
+/* Class Selector */
+.First {
+    color: darkgreen;
     text-align: justify;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.Second_paragraph{
+/* ID Selector */
+#Second_paragraph {
     color: blueviolet;
     text-align: justify;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-footer{
+/* Group Selector */
+span,
+address {
+    color: rgb(13, 82, 84);
+}
+
+footer {
     padding: 0px;
-    display:flex;
+    display: flex;
     background-color: rgb(77, 76, 76);
     color: white;
     justify-content: center;
-
 }
