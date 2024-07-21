@@ -1,0 +1,32 @@
+body{
+    background-color: darkgrey;
+    color: white;
+   
+}
+header{
+    text-align: center;
+    color: rgb(33, 33, 33);
+}
+
+.First{
+    color:darkgreen;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Second_paragraph{
+    color: blueviolet;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer{
+    padding: 0px;
+    display:flex;
+    background-color: rgb(77, 76, 76);
+    color: white;
+    justify-content: center;
+
+}
