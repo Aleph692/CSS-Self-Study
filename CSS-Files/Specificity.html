@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        /* 1,2,3,4 --- this is the specificity levels */
+
+        /* 0,1,0,0 ---- This show the specificity ==> html this use second */
+
+        #header-id{
+            color: black;
+        }
+        /* 0,0,1,0 ==> html this use third */
+        .header{
+            color: red;
+        }
+        /* 0,0,0,1 ==> html this use last */
+        h1{
+            color: blue;
+        }
+        .text{
+            color: green;
+        }
+    </style>
+
+<body>
+    <!-- 1,0,0,0 ==> html this use first -->
+    <h1 id="header-id" class="header" style="color: cyan;">Header</h1>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam blanditiis illo velit cumque quam numquam a! Nobis suscipit, quos unde dolores veritatis omnis dicta qui velit error nisi inventore deleniti nam in eveniet placeat perferendis impedit iure quisquam aperiam neque consequatur repellat corrupti laboriosam aliquid! Officia rem explicabo ducimus eum consectetur illum, velit neque, voluptatum at fuga, quidem vero. Velit, vitae natus. Soluta sunt obcaecati tenetur. Earum fugiat nisi possimus fuga officia nesciunt aperiam magnam voluptate in consectetur molestias quidem accusamus iure odit quisquam ut, animi at consequatur est, eum harum. Nam quidem temporibus veritatis dignissimos magni totam dolore obcaecati sint, modi perferendis culpa quibusdam molestiae praesentium rem ducimus ipsa explicabo maxime commodi repellendus? Cum recusandae, nihil amet veniam, sint, cupiditate aliquid doloribus corporis nobis soluta libero debitis blanditiis minima eos vitae! Doloremque nostrum earum dolore temporibus at dolor exercitationem animi sunt repudiandae. Possimus perspiciatis praesentium voluptatum, aut officiis ad repudiandae modi! Sapiente necessitatibus maiores dolores quos error, accusamus ad quibusdam voluptates quo reprehenderit nostrum corrupti atque adipisci officia iure aspernatur autem in obcaecati! Dolore odio ipsam, ea hic alias molestiae quam, aliquam officiis necessitatibus veritatis dolores inventore nostrum eveniet corrupti, unde expedita. Reiciendis sunt nihil ipsum recusandae laudantium quasi.</p>
+</body>
+
+</html>
